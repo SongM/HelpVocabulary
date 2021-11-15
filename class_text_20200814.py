@@ -3,10 +3,12 @@ class text:
         self.file_add = ""
         self.s = ""
         self.m = {}
+
     def getTextFromFile(self,file_add):
         f = open(file_add, encoding="utf8")
         self.file_add = file_add
         self.s = f.read()
+
     def splitText(self):
         punctuation_list = ",.!?:; \"“”-_\'(){}[]\n#1234567890$+-*/—%’‘"
         s = self.s
@@ -21,18 +23,21 @@ class text:
                 self.m[word] += 1
             else:
                 self.m[word] = 1
+
     def printWordList_wordList(self,reverse=False):
         pairs_keys = []
         for key in self.m:
             pairs_keys.append([key, self.m[key]])
         pairs_keys.sort(reverse = reverse)
         print(pairs_keys)
+
     def printWordList_Rank(self,reverse=False):
         pairs_values = []
         for key in self.m:
             pairs_values.append([self.m[key], key])
         pairs_values.sort(reverse = not reverse)
         print(pairs_values)
+
     def save(self, save_add):
     def load(self, load_add, b_load_str=False):
 

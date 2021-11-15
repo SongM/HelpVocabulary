@@ -1,0 +1,3 @@
+1. giving a txt file, be able to extract all the word, word count, percentage, accumulative percentage based on count rank.
+2. compare to an existing vocabulary list, exact words that not on the vocabulary list. (unfamiliar words)
+3. from a internet page (news page), extract txt file.

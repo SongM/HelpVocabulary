@@ -1,0 +1,2 @@
+1. test old functions.
+2. word percentage, accumulative percentage.
