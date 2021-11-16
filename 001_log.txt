@@ -1,2 +1,6 @@
 20211114
 1. re-start project
+
+20211115:
+1. pick-up what has left on previous study
+2. choose spacy for the supporting library (https://spacy.io/usage/spacy-101)
