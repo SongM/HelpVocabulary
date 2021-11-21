@@ -9,3 +9,7 @@
 1. - done 20211120 2. word percentage, accumulative percentage.
 2. - done 20211120 3. https://spacy.io/usage/spacy-101
 3. adding some tasks for learning.
+
+20211121:
+1. vocabulary list class.
+2. flask button.

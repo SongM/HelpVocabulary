@@ -7,3 +7,4 @@
 7. sentences segmentation (item 5)
 8. adding example sentense?
 9. compare the lemma_list_from_text to lemma_list_vocabulary, to get unfamiliar words.
+10, at python/test_flusk_button_20211121, continue making button work. (ideally, the data is at html page, and use posts to initial, use get to get it back to python, only passing necessary info, generate button type at html).
