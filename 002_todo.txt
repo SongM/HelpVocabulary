@@ -4,4 +4,6 @@
 4. https://spacy.io/usage/projects
 5. https://spacy.io/usage/linguistic-features
 6. https://course.spacy.io/en/
-7. sentences segmentation
+7. sentences segmentation (item 5)
+8. adding example sentense?
+9. compare the lemma_list_from_text to lemma_list_vocabulary, to get unfamiliar words.
